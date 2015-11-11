@@ -59,7 +59,10 @@ include "includes/travel-header.inc.php";
          
          <div class="jumbotron">
            <h1>About Us</h1>
-           <p>This assignment was created by Louis Kiddell</p>
+           <p>This assignment was created by:</p>
+	       <p>Louis Kiddell - *project parts worked on here*</p>
+			<p>Shayne Legault - *project parts worked on here*</p>
+			<p>Andrew Si - *project parts worked on here*</p>
            <p><a href=# class="btn btn-warning btn-lg">Learn more &raquo;</a></p>
          </div>        
       
