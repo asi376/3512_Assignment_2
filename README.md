@@ -1,15 +1,15 @@
 Hey guys, we can use this file for any important documentation we want to include.
-
-TO DO:
--Assignment 1 functionality: DONE
--Program Class Design: In Progress (Shayne)
--Navigation: Not started
--Bootstrap theme: In Progress (Andrew)
--About Us: Done. Final update at end.
--Search Bar: In Progress (Shayne)
--Search Results: In Progress (Shayne)
--Add to Favourites: Not started
--View Favourites: Not started
--Add to Print Cart: In Progress (Louis)
--View Print Cart: In Progress (Louis)
+</br>
+TO DO:</br>
+-Assignment 1 functionality: DONE</br>
+-Program Class Design: In Progress (Shayne)</br>
+-Navigation: Not started</br>
+-Bootstrap theme: In Progress (Andrew)</br>
+-About Us: Done. Final update at end.</br>
+-Search Bar: In Progress (Shayne)</br>
+-Search Results: In Progress (Shayne)</br>
+-Add to Favourites: Not started</br>
+-View Favourites: Not started</br>
+-Add to Print Cart: In Progress (Louis)</br>
+-View Print Cart: In Progress (Louis)</br>
 
