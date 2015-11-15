@@ -16,8 +16,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 
-    <title>Assignment 1</title>
-    
+    <title>About Us</title>
    
 
     <!-- Bootstrap core CSS -->
@@ -59,10 +58,13 @@ include "includes/travel-header.inc.php";
          
          <div class="jumbotron">
            <h1>About Us</h1>
-           <p>This assignment was created by:</p>
-	       <p>Louis Kiddell - *project parts worked on here*</p>
+			<p>This site is hypothetical as was created as an assignment for Mount Royal University COMP 3512 taught by Randy Connolly in Fall 2015.</p>
+           	</br>
+           	<p>This assignment was created by:</p>
+	       	<p>Louis Kiddell - *project parts worked on here*</p>
 			<p>Shayne Legault - *project parts worked on here*</p>
 			<p>Andrew Si - *project parts worked on here*</p>
+			</br>
            <p><a href=# class="btn btn-warning btn-lg">Learn more &raquo;</a></p>
          </div>        
       
