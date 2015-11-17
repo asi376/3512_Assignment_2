@@ -21,6 +21,41 @@
 			$pdo = null;
 		}
 	 }
+	 
+	 
+	function echoFavs($favorites)
+	{		
+		
+		foreach($favorites as $fav)
+		{	
+			
+			echo "<tr><td>";
+			echo "<img src='travel-images/medium/" . $fav['Path'] . "' alt='" . $fav['Title'] . "' class='img-thumbnail'/>" ;
+			echo "</td><td><p><a href='single-image.php?id=" . $fav['ImageID'] . "'>" . $fav['Title'] . "</a></p></td><td><p>" . $fav['CountryName'] . "</p></td></tr>";	
+		
+		
+		}
+		
+        
+		
+	}
+	
+	function returnFav()
+	{
+		$pdo = databaseConnection();
+		
+		$sql = "SELECT Path, TravelImage.ImageID, Title, CountryName\n"
+    		. "FROM TravelImageDetails\n"
+    		. "INNER JOIN TravelImage\n"
+    		. "ON TravelImageDetails.ImageID = TravelImage.ImageID\n"
+    		. "INNER JOIN GeoCountries\n"
+   	 		. "ON GeoCountries.ISO = TravelImageDetails.CountryCodeISO WHERE TravelImage.ImageID = " . $_GET['id'];
+   	 		
+   	 	$result = $pdo->query($sql);
+   	 	return $result;
+   	 	
+   	 	
+	}
 	
 	function filterByCity()
 	{
