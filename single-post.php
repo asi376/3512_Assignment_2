@@ -75,13 +75,15 @@ include "includes/travel-header.inc.php";
             	                  
             	<?php 
             		$pdo = databaseConnection();
-					$sql = "SELECT TravelPost.UID, TravelPost.PostID, Path, TravelImage.ImageID, TravelImageDetails.Title \n"
-    				. "FROM TravelPost\n"
-    				. "INNER JOIN TravelImage\n"
-    				. "ON TravelImage.UID = TravelPost.UID\n"
-    				. "INNER JOIN TravelImageDetails\n"
-    				. "ON TravelImageDetails.ImageID = TravelImage.ImageID\n"
-    				. "WHERE TravelPost.PostID = " . $_GET['id'];
+					$sql = "SELECT TravelPost.UID, TravelPost.PostID, Path, TravelImageDetails.ImageID, TravelImageDetails.Title\n"
+    				. " FROM TravelPost\n"
+    				. " INNER JOIN TravelPostImages\n"
+    				. " ON TravelPostImages.PostID = TravelPost.PostID\n"
+    				. " INNER JOIN TravelImageDetails\n"
+    				. " ON TravelImageDetails.ImageID = TravelPostImages.ImageID\n"
+    				. " INNER JOIN TravelImage\n"
+    				. " ON TravelImage.ImageID = TravelPostImages.ImageID\n"
+    				. " WHERE TravelPost.PostID = " . $_GET['id'];
     		
     				$result = $pdo->query($sql);
         			images($result);
