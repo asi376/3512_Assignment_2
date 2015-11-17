@@ -1,4 +1,9 @@
-<?php include_once "functions.php"; ?>
+<?php 
+session_start();
+include_once "functions.php"; 
+if ( !isset($_GET['id']))
+			header("Location: error.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
