@@ -8,8 +8,8 @@ TO DO:</br>
 -About Us: Done. Final update at end.</br>
 -Search Bar: In Progress (Shayne)</br>
 -Search Results: In Progress (Shayne)</br>
--Add to Favourites: DONE(Louis) Please feel free to test and give me critical feedback if something isn't right</br>
--View Favourites: DONE(Louis) Please feel free to test and give me critical feedback if something isn't right</br>
+-Add to Favourites: In Progress (Louis) </br>
+-View Favourites: In Progress (Louis) </br>
 -Add to Print Cart: In Progress (Louis)</br>
 -View Print Cart: In Progress (Louis)</br>
 
