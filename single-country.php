@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include_once "functions.php"; 
-if ( !isset($_GET['id']))
+if ( !isset($_GET['iso']))
 			header("Location: error.php");
 ?>
 <!DOCTYPE html>
