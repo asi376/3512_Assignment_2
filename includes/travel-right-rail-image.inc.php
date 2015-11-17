@@ -34,7 +34,7 @@
 			<div class="panel panel-success">
 				<div class="panel-heading">Social</div>
   				<?php
-				echo "<div class='panel-body'><p><a href='addToFavorites.php?id=" . $_GET['id'] . "' class='btn btn-primary btn-md'>Add to Favourites</a></p>";
+				echo "<div class='panel-body'><p><a href='add-favorites.php?id=" . $_GET['id'] . "' class='btn btn-primary btn-md'>Add to Favourites</a></p>";
   				echo "<p><a href='browse-favorites.php' class='btn btn-success btn-md'>View Favourites</a></p></div>";
   				
 				?>
