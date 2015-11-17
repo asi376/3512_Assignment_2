@@ -7,7 +7,7 @@
             <ul class="list-inline">
               <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
               <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-star"></span> Favorites</a></li>
+              <li><a href="browse-favorites.php"><span class="glyphicon glyphicon-star"></span> Favorites (<?php if (isset($_SESSION['count'])){echo $_SESSION['count'];}else{echo"0";}?>)</a></li>
             </ul>         
          </div>
       </div>
